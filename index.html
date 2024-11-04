@@ -99,7 +99,45 @@
         <button type="button" class="prev-step">Back</button>
         <button type="button" class= "next-step"> Continue</button>
     
-     </div>
+    </div>
+
+    <div class="form-step">
+
+        <h2> Your Bank Account Information</h2>
+
+        <label> Account Holder Name</label>
+        <input type="text" id="accountname" required>
+
+        <label> Account Number</label>
+        <input type="number" id="accountnumber" required>
+
+        <label> Transit Number</label>
+        <input type="number" id="transitnumber" required>
+
+        <label> Institution Number </label>
+        <input type="number" id="institutionnumber" required>
+
+        <label> Your Account Type </label>
+            <select id="accounttype" required>
+                <option value="checking"> Checking</option>
+                <option value="saving"> Savings</option>
+            </select>
+
+        
+        <label> Your Bank Name</label>
+        <select id="bankname" required>
+            <option value="rbc">RBC/Royal Bank of Canada</option>
+            <option value="td">TD/Toronto-Dominion Bank</option>
+            <option value="bmo">BMO/Bank of Montreal</option>
+            <option value ="scotiabank">Scotiabank/Bank of Nova Scotia</option>
+            <option value="CIBC">CIBC/Canadian Imperial Bank of Commerce</option>
+        </select>
+
+
+
+
+            
+    </div>
 
 </body>
 </html>
