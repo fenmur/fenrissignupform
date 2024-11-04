@@ -46,7 +46,7 @@
      
     <div class="form-step">
         <h2> Investment Information</h2>
-        <label> Your Income Level</label>
+        <label> Your Annual Income Level</label>
         <input type="text" id="incomelevel" required>
 
         <label> Your Investment Experience (In Years)</label>
@@ -63,6 +63,27 @@
         <button type="button" class= "next-step"> Continue</button>
     
     </div>
+
+    <div class="form-step">
+        <h2> What Are Your Investment Goals?</h2>
+        <label>
+        <input type="checkbox" name ="goals" value="retirement"> I am saving for retirement </label>
+
+        <label> 
+            <input type="checkbox" name="goals" value="house"> I planning on buying a house </label>
+
+        <label> 
+            <input type="checkbox" name = "goals" value="education">I want to start my education</label>
+
+        <label>
+            <input type="checkbox" name = "goals" value="other" id="othergoalcheck">Other Goals? </label>
+
+        <input type="text" id="othergoalinput" name="othergoal" placeholder="Please Add Your Goal" class="hidden">
+
+        <button type="button" class="prev-step">Back</button>
+        <button type="button" class= "next-step"> Continue</button>
+    
+     </div>
 
 </body>
 </html>
