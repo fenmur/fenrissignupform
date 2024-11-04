@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crypta Signup Page</title>
-    <link rel="stylesheet" href = "style.css">
+    <link rel="stylesheet" href = "styles/styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/qik5uzz.css">
+
 </head>
 <body>
 <div class="form-container">
@@ -109,13 +111,13 @@
         <input type="text" id="accountname" required>
 
         <label> Account Number</label>
-        <input type="number" id="accountnumber" required>
+        <input type="text" id="accountnumber" required>
 
         <label> Transit Number</label>
-        <input type="number" id="transitnumber" required>
+        <input type="text" id="transitnumber" required>
 
         <label> Institution Number </label>
-        <input type="number" id="institutionnumber" required>
+        <input type="text" id="institutionnumber" required>
 
         <label> Your Account Type </label>
             <select id="accounttype" required>
@@ -132,12 +134,17 @@
             <option value ="scotiabank">Scotiabank/Bank of Nova Scotia</option>
             <option value="CIBC">CIBC/Canadian Imperial Bank of Commerce</option>
         </select>
-
-
-
-
-            
+        <button type="button" class="prev-step">Back</button>
+        <button type="button" class= "next-step"> Continue</button>
     </div>
 
+    <div class = "form-step">
+        <h2> Legal Agreements For Use of Our Services</h2>
+        <label> <input type="checkbox" name="terms" id="terms" required> I agree to the terms and conditions </label>
+        </label>
+
+        <button type="button" class="prev-step">Back</button>
+        <button type="button" class= "next-step"> Continue</button>
+    </div>
 </body>
 </html>
