@@ -27,12 +27,12 @@ body {
 
 .form-container h2 {
 
-    text-align: left;
+    text-align: center;
     color: #f95919;
     font-family: "good-times", sans-serif;
     font-weight: 200;
     font-style: normal;
-    font-size: small;
+    font-size: medium;
 }
 
 .form-step {
@@ -47,6 +47,14 @@ body {
     display: block;
 }
 
+img {
+
+    width:200px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+
+}
 label {
 
     display:block;
@@ -85,3 +93,25 @@ input[type="checkbox"] {
     font-weight: 200;
     font-size: small;
 }
+
+button {
+
+    display:block;
+    width: 200px;
+    background-color:#000000;
+    color: white;
+    padding: 10px 20px;
+    margin: top 30px; 
+    margin-top: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 200;
+    font-size: small;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #f95919;
+}
+
