@@ -115,3 +115,7 @@ button:hover {
     background-color: #f95919;
 }
 
+.hidden {
+    
+    display: none;
+}
